@@ -1,0 +1,17 @@
+MongoDB shell version v4.0.3
+connecting to: mongodb://127.0.0.1:27017/nbd
+Implicit session: session { "id" : UUID("5350c909-d8e6-47eb-8355-86666f71d631") }
+MongoDB server version: 5.0.6
+WARNING: shell and server versions do not match
+[
+	{
+		"Plec" : "Male",
+		"srednia waga" : 70,
+		"sredni wzrost" : 166.73
+	},
+	{
+		"Plec" : "Female",
+		"srednia waga" : 70.11,
+		"sredni wzrost" : 166.81
+	}
+]

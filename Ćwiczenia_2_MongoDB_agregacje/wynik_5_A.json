@@ -1,0 +1,372 @@
+MongoDB shell version v4.0.3
+connecting to: mongodb://127.0.0.1:27017/nbd
+Implicit session: session { "id" : UUID("dad5026a-f3e5-4aff-9edd-31b0d50a64ac") }
+MongoDB server version: 5.0.6
+WARNING: shell and server versions do not match
+[
+	{
+		"waluta" : "CAD",
+		"średnia liczba środków" : NumberDecimal("5306.87"),
+		"łączna liczba środków" : NumberDecimal("58375.60")
+	},
+	{
+		"waluta" : "MAD",
+		"średnia liczba środków" : NumberDecimal("3818.85"),
+		"łączna liczba środków" : NumberDecimal("3818.85")
+	},
+	{
+		"waluta" : "ARS",
+		"średnia liczba środków" : NumberDecimal("4648.40"),
+		"łączna liczba środków" : NumberDecimal("23242.00")
+	},
+	{
+		"waluta" : "COP",
+		"średnia liczba środków" : NumberDecimal("4936.68"),
+		"łączna liczba środków" : NumberDecimal("19746.73")
+	},
+	{
+		"waluta" : "KZT",
+		"średnia liczba środków" : NumberDecimal("3788.95"),
+		"łączna liczba środków" : NumberDecimal("3788.95")
+	},
+	{
+		"waluta" : "NIO",
+		"średnia liczba środków" : NumberDecimal("4985.64"),
+		"łączna liczba środków" : NumberDecimal("9971.28")
+	},
+	{
+		"waluta" : "BRL",
+		"średnia liczba środków" : NumberDecimal("4512.00"),
+		"łączna liczba środków" : NumberDecimal("49632.02")
+	},
+	{
+		"waluta" : "PYG",
+		"średnia liczba środków" : NumberDecimal("4874.69"),
+		"łączna liczba środków" : NumberDecimal("4874.69")
+	},
+	{
+		"waluta" : "XPF",
+		"średnia liczba środków" : NumberDecimal("4759.07"),
+		"łączna liczba środków" : NumberDecimal("4759.07")
+	},
+	{
+		"waluta" : "YER",
+		"średnia liczba środków" : NumberDecimal("4570.83"),
+		"łączna liczba środków" : NumberDecimal("13712.50")
+	},
+	{
+		"waluta" : "KRW",
+		"średnia liczba środków" : NumberDecimal("6689.91"),
+		"łączna liczba środków" : NumberDecimal("13379.82")
+	},
+	{
+		"waluta" : "PKR",
+		"średnia liczba środków" : NumberDecimal("4734.50"),
+		"łączna liczba środków" : NumberDecimal("18938.00")
+	},
+	{
+		"waluta" : "EGP",
+		"średnia liczba środków" : NumberDecimal("5579.30"),
+		"łączna liczba środków" : NumberDecimal("5579.3")
+	},
+	{
+		"waluta" : "XOF",
+		"średnia liczba środków" : NumberDecimal("5960.68"),
+		"łączna liczba środków" : NumberDecimal("17882.05")
+	},
+	{
+		"waluta" : "MGA",
+		"średnia liczba środków" : NumberDecimal("4853.66"),
+		"łączna liczba środków" : NumberDecimal("14560.99")
+	},
+	{
+		"waluta" : "CUP",
+		"średnia liczba środków" : NumberDecimal("5005.78"),
+		"łączna liczba środków" : NumberDecimal("15017.34")
+	},
+	{
+		"waluta" : "CLP",
+		"średnia liczba środków" : NumberDecimal("5252.23"),
+		"łączna liczba środków" : NumberDecimal("21008.95")
+	},
+	{
+		"waluta" : "ZMW",
+		"średnia liczba środków" : NumberDecimal("5569.56"),
+		"łączna liczba środków" : NumberDecimal("5569.56")
+	},
+	{
+		"waluta" : "RSD",
+		"średnia liczba środków" : NumberDecimal("4276.56"),
+		"łączna liczba środków" : NumberDecimal("4276.56")
+	},
+	{
+		"waluta" : "CDF",
+		"średnia liczba środków" : NumberDecimal("6114.40"),
+		"łączna liczba środków" : NumberDecimal("12228.8")
+	},
+	{
+		"waluta" : "IDR",
+		"średnia liczba środków" : NumberDecimal("4907.91"),
+		"łączna liczba środków" : NumberDecimal("323922.59")
+	},
+	{
+		"waluta" : "NPR",
+		"średnia liczba środków" : NumberDecimal("5792.26"),
+		"łączna liczba środków" : NumberDecimal("5792.26")
+	},
+	{
+		"waluta" : "PHP",
+		"średnia liczba środków" : NumberDecimal("4941.92"),
+		"łączna liczba środków" : NumberDecimal("118606.28")
+	},
+	{
+		"waluta" : "ETB",
+		"średnia liczba środków" : NumberDecimal("5436.11"),
+		"łączna liczba środków" : NumberDecimal("5436.11")
+	},
+	{
+		"waluta" : "BWP",
+		"średnia liczba środków" : NumberDecimal("4076.29"),
+		"łączna liczba środków" : NumberDecimal("4076.29")
+	},
+	{
+		"waluta" : "AMD",
+		"średnia liczba środków" : NumberDecimal("4921.86"),
+		"łączna liczba środków" : NumberDecimal("24609.33")
+	},
+	{
+		"waluta" : "XAF",
+		"średnia liczba środków" : NumberDecimal("4698.22"),
+		"łączna liczba środków" : NumberDecimal("14094.66")
+	},
+	{
+		"waluta" : "MYR",
+		"średnia liczba środków" : NumberDecimal("4781.12"),
+		"łączna liczba środków" : NumberDecimal("4781.12")
+	},
+	{
+		"waluta" : "NZD",
+		"średnia liczba środków" : NumberDecimal("5328.46"),
+		"łączna liczba środków" : NumberDecimal("5328.46")
+	},
+	{
+		"waluta" : "NOK",
+		"średnia liczba środków" : NumberDecimal("4773.66"),
+		"łączna liczba środków" : NumberDecimal("4773.66")
+	},
+	{
+		"waluta" : "CZK",
+		"średnia liczba środków" : NumberDecimal("4644.55"),
+		"łączna liczba środków" : NumberDecimal("37156.42")
+	},
+	{
+		"waluta" : "LYD",
+		"średnia liczba środków" : NumberDecimal("4382.49"),
+		"łączna liczba środków" : NumberDecimal("8764.99")
+	},
+	{
+		"waluta" : "HRK",
+		"średnia liczba środków" : NumberDecimal("4870.96"),
+		"łączna liczba środków" : NumberDecimal("24354.82")
+	},
+	{
+		"waluta" : "UZS",
+		"średnia liczba środków" : NumberDecimal("3573.03"),
+		"łączna liczba środków" : NumberDecimal("3573.03")
+	},
+	{
+		"waluta" : "PEN",
+		"średnia liczba środków" : NumberDecimal("4661.23"),
+		"łączna liczba środków" : NumberDecimal("18644.94")
+	},
+	{
+		"waluta" : "PLN",
+		"średnia liczba środków" : NumberDecimal("4777.43"),
+		"łączna liczba środków" : NumberDecimal("90771.28")
+	},
+	{
+		"waluta" : "NGN",
+		"średnia liczba środków" : NumberDecimal("4157.70"),
+		"łączna liczba środków" : NumberDecimal("24946.23")
+	},
+	{
+		"waluta" : "ALL",
+		"średnia liczba środków" : NumberDecimal("3325.48"),
+		"łączna liczba środków" : NumberDecimal("3325.48")
+	},
+	{
+		"waluta" : "MNT",
+		"średnia liczba środków" : NumberDecimal("5428.90"),
+		"łączna liczba środków" : NumberDecimal("21715.61")
+	},
+	{
+		"waluta" : "USD",
+		"średnia liczba środków" : NumberDecimal("4978.73"),
+		"łączna liczba środków" : NumberDecimal("74680.98")
+	},
+	{
+		"waluta" : "BOB",
+		"średnia liczba środków" : NumberDecimal("5263.30"),
+		"łączna liczba środków" : NumberDecimal("5263.3")
+	},
+	{
+		"waluta" : "IRR",
+		"średnia liczba środków" : NumberDecimal("4417.37"),
+		"łączna liczba środków" : NumberDecimal("26504.24")
+	},
+	{
+		"waluta" : "ISK",
+		"średnia liczba środków" : NumberDecimal("4316.41"),
+		"łączna liczba środków" : NumberDecimal("4316.41")
+	},
+	{
+		"waluta" : "JPY",
+		"średnia liczba środków" : NumberDecimal("5078.72"),
+		"łączna liczba środków" : NumberDecimal("60944.74")
+	},
+	{
+		"waluta" : "IQD",
+		"średnia liczba środków" : NumberDecimal("4269.39"),
+		"łączna liczba środków" : NumberDecimal("4269.39")
+	},
+	{
+		"waluta" : "BYR",
+		"średnia liczba środków" : NumberDecimal("5095.79"),
+		"łączna liczba środków" : NumberDecimal("5095.79")
+	},
+	{
+		"waluta" : "RUB",
+		"średnia liczba środków" : NumberDecimal("4989.54"),
+		"łączna liczba środków" : NumberDecimal("119749.15")
+	},
+	{
+		"waluta" : "SEK",
+		"średnia liczba środków" : NumberDecimal("5060.01"),
+		"łączna liczba środków" : NumberDecimal("70840.19")
+	},
+	{
+		"waluta" : "GBP",
+		"średnia liczba środków" : NumberDecimal("6149.19"),
+		"łączna liczba środków" : NumberDecimal("6149.19")
+	},
+	{
+		"waluta" : "MMK",
+		"średnia liczba środków" : NumberDecimal("4629.42"),
+		"łączna liczba środków" : NumberDecimal("4629.42")
+	},
+	{
+		"waluta" : "GTQ",
+		"średnia liczba środków" : NumberDecimal("5806.30"),
+		"łączna liczba środków" : NumberDecimal("5806.3")
+	},
+	{
+		"waluta" : "VND",
+		"średnia liczba środków" : NumberDecimal("4520.03"),
+		"łączna liczba środków" : NumberDecimal("36160.26")
+	},
+	{
+		"waluta" : "ZWL",
+		"średnia liczba środków" : NumberDecimal("5792.17"),
+		"łączna liczba środków" : NumberDecimal("5792.17")
+	},
+	{
+		"waluta" : "CNY",
+		"średnia liczba środków" : NumberDecimal("4954.74"),
+		"łączna liczba środków" : NumberDecimal("470700.38")
+	},
+	{
+		"waluta" : "UAH",
+		"średnia liczba środków" : NumberDecimal("5058.98"),
+		"łączna liczba środków" : NumberDecimal("40471.84")
+	},
+	{
+		"waluta" : "ZAR",
+		"średnia liczba środków" : NumberDecimal("3930.30"),
+		"łączna liczba środków" : NumberDecimal("11790.92")
+	},
+	{
+		"waluta" : "THB",
+		"średnia liczba środków" : NumberDecimal("4604.39"),
+		"łączna liczba środków" : NumberDecimal("23021.96")
+	},
+	{
+		"waluta" : "KYD",
+		"średnia liczba środków" : NumberDecimal("3760.89"),
+		"łączna liczba środków" : NumberDecimal("3760.89")
+	},
+	{
+		"waluta" : "ILS",
+		"średnia liczba środków" : NumberDecimal("5431.83"),
+		"łączna liczba środków" : NumberDecimal("16295.49")
+	},
+	{
+		"waluta" : "SRD",
+		"średnia liczba środków" : NumberDecimal("5286.68"),
+		"łączna liczba środków" : NumberDecimal("5286.68")
+	},
+	{
+		"waluta" : "MWK",
+		"średnia liczba środków" : NumberDecimal("3574.42"),
+		"łączna liczba środków" : NumberDecimal("3574.42")
+	},
+	{
+		"waluta" : "AFN",
+		"średnia liczba środków" : NumberDecimal("5585.16"),
+		"łączna liczba środków" : NumberDecimal("16755.49")
+	},
+	{
+		"waluta" : "RWF",
+		"średnia liczba środków" : NumberDecimal("4632.88"),
+		"łączna liczba środków" : NumberDecimal("4632.88")
+	},
+	{
+		"waluta" : "DOP",
+		"średnia liczba środków" : NumberDecimal("5168.68"),
+		"łączna liczba środków" : NumberDecimal("20674.74")
+	},
+	{
+		"waluta" : "BGN",
+		"średnia liczba środków" : NumberDecimal("5300.22"),
+		"łączna liczba środków" : NumberDecimal("21200.88")
+	},
+	{
+		"waluta" : "EUR",
+		"średnia liczba środków" : NumberDecimal("4901.82"),
+		"łączna liczba środków" : NumberDecimal("245091.47")
+	},
+	{
+		"waluta" : "TJS",
+		"średnia liczba środków" : NumberDecimal("4087.71"),
+		"łączna liczba środków" : NumberDecimal("4087.71")
+	},
+	{
+		"waluta" : "VUV",
+		"średnia liczba środków" : NumberDecimal("6418.27"),
+		"łączna liczba środków" : NumberDecimal("6418.27")
+	},
+	{
+		"waluta" : "VEF",
+		"średnia liczba środków" : NumberDecimal("4166.64"),
+		"łączna liczba środków" : NumberDecimal("8333.28")
+	},
+	{
+		"waluta" : "MKD",
+		"średnia liczba środków" : NumberDecimal("3835.05"),
+		"łączna liczba środków" : NumberDecimal("3835.05")
+	},
+	{
+		"waluta" : "TZS",
+		"średnia liczba środków" : NumberDecimal("3526.18"),
+		"łączna liczba środków" : NumberDecimal("7052.37")
+	},
+	{
+		"waluta" : "HNL",
+		"średnia liczba środków" : NumberDecimal("5504.86"),
+		"łączna liczba środków" : NumberDecimal("16514.59")
+	},
+	{
+		"waluta" : "MXN",
+		"średnia liczba środków" : NumberDecimal("5022.90"),
+		"łączna liczba środków" : NumberDecimal("50229.00")
+	}
+]

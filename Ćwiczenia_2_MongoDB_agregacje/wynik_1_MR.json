@@ -1,0 +1,22 @@
+MongoDB shell version v4.0.3
+connecting to: mongodb://127.0.0.1:27017/nbd
+Implicit session: session { "id" : UUID("6396e762-b5fc-4e9f-a164-9186a65b6546") }
+MongoDB server version: 5.0.6
+WARNING: shell and server versions do not match
+{ "result" : "mpWeightHeight", "ok" : 1 }
+[
+	{
+		"_id" : "Male",
+		"value" : {
+			"averageWeight" : 70.00976575121166,
+			"averageHeight" : 166.73469507269806
+		}
+	},
+	{
+		"_id" : "Female",
+		"value" : {
+			"averageWeight" : 70.11034916768176,
+			"averageHeight" : 166.81173365814035
+		}
+	}
+]

@@ -1,0 +1,21 @@
+****************************************************
+Komunikaty z serwera - zapytania curl dla bazy Riak
+****************************************************
+
+Wstawianie dokumentu do bazy - odpowiedz z serwera:  204
+
+Pobranie dokumentu z bazy: 
+Odpowiedz z serwera:  200
+Wynik pobrania:  {'title': 'Dune Board Game'}
+
+Modyfikacja dokumentu - odpowiedz z serwera:  204
+
+Pobranie zmodyfikowanego dokumentu z bazy: 
+Odpowiedz z serwera:  200
+Wynik pobrania:  {'title': 'Dune Board Game', 'number_of_items': 20, 'prize': 199.99}
+
+Usuniecie dokumentu - odpowiedz z serwera:  204
+
+Proba pobrania usunietego dokumentu - odpowiedz z serwera:  404
+Wynik pobrania:  not found
+

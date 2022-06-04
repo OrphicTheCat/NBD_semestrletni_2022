@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvtcqtprJwHA4KIMpkTGPlWHXD/47fFkA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s24558>; rel="up"
+Last-Modified: Sat, 04 Jun 2022 15:39:38 GMT
+ETag: "5wL5GnTPyl8YGUs8yI2u9u"
+Date: Sat, 04 Jun 2022 15:50:40 GMT
+Content-Type: application/json
+Content-Length: 128
+
+{'title': 'Seven Databases in Seven Weeks', 'authors': ['Eric Redmond', 'Jim R. Wilson'], 'price': 40.50, 'number_of_items': 12}

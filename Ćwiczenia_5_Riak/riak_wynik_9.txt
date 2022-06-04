@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvtcq+POBgeFwYAZTImMeK8O9f/x3+LIA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s24558>; rel="up"
+Last-Modified: Sat, 04 Jun 2022 16:05:50 GMT
+ETag: "4vsvyU9QqvoPYQhFxGXbFP"
+Date: Sat, 04 Jun 2022 16:09:09 GMT
+Content-Type: application/json
+Content-Length: 41
+
+{'title':'MongoDB: The Definitive Guide'}

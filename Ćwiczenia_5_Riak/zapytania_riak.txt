@@ -1,0 +1,23 @@
+1. curl -i -XPUT http://localhost:8098/buckets/s24558/keys/SevenDatabases -H "Content-Type: application/json" -d "{'title': 'Seven Databases in Seven Weeks', 'authors': ['Eric Redmond', 'Jim R. Wilson'], 'price': 40.50, 'number_of_items': 12}" > riak_wynik_1_a.txt
+curl -i -XPUT http://localhost:8098/buckets/s24558/keys/ALittleRiakBook -H "Content-Type: application/json" -d "{'title': 'A little Riak book', 'authors': 'Eric Redmond', 'price': 30.99, 'number_of_items': 8}" > riak_wynik_1_b.txt
+curl -i -XPUT http://localhost:8098/buckets/s24558/keys/MongoDBApplied -H "Content-Type: application/json" -d "{'title': 'MongoDB Applied Design Patterns', 'authors': 'Rick Coperland', 'price': 25.00, 'number_of_items': 10}" > riak_wynik_1_c.txt
+curl -i -XPUT http://localhost:8098/buckets/s24558/keys/GuideToNOSQL -H "Content-Type: application/json" -d "{'title': 'Guide to NoSQL with Azure Cosmos DB', 'authors': ['Gaston C. Hillar', 'Daron Yondem'], 'price': 26.20, 'number_of_items': 22}" > riak_wynik_1_d.txt
+curl -i -XPUT http://localhost:8098/buckets/s24558/keys/RedisCookbook -H "Content-Type: application/json" -d "{'title': 'Redis Cookbook', 'authors': ['Tiago Macedo', 'Fred Oliveira'], 'price': 28.60, 'number_of_items': 16}" > riak_wynik_1_e.txt
+
+2. curl -i -XGET http://localhost:8098/buckets/s24558/keys/SevenDatabases > riak_wynik_2.txt
+
+3. curl -i -XPUT http://localhost:8098/buckets/s24558/keys/ALittleRiakBook -H "Content-Type: application/json" -d "{'title': 'A little Riak book', 'authors': 'Eric Redmond', 'price': 30.99, 'number_of_items': 8, year: '2013'}" > riak_wynik_3.txt
+
+4. curl -i -XPUT http://localhost:8098/buckets/s24558/keys/MongoDBApplied -H "Content-Type: application/json" -d "{'title': 'MongoDB Applied Design Patterns', 'price': 25.00, 'number_of_items': 10}" > riak_wynik_4.txt
+
+5. curl -i -XPUT http://localhost:8098/buckets/s24558/keys/GuideToNOSQL -H "Content-Type: application/json" -d "{'title': 'Guide to NoSQL with Azure Cosmos DB', 'authors': ['Gaston C. Hillar', 'Daron Yondem'], 'price': 26.20, 'number_of_items': 20}" > riak_wynik_5.txt
+
+6. curl -i -XDELETE http://localhost:8098/buckets/s24558/keys/RedisCookbook > riak_wynik_6.txt
+
+7. curl -i -XGET http://localhost:8098/buckets/s24558/keys/RedisCookbook > riak_wynik_7.txt
+
+8. curl -i -XPOST http://localhost:8098/buckets/s24558/keys -i -H "Content-Type: application/json" -d "{'title':'MongoDB: The Definitive Guide'}" > riak_wynik_8.txt
+
+9. curl -i -XGET http://localhost:8098/buckets/s24558/keys/RPMRyCiCSP1sJeeTTK6k9tE5EKq > riak_wynik_9.txt
+
+10. curl -i -XDELETE http://localhost:8098/buckets/s24558/keys/RPMRyCiCSP1sJeeTTK6k9tE5EKq > riak_wynik_10.txt

@@ -1,0 +1,51 @@
+1. MATCH (allMovies:Movie) RETURN allMovies
+
+2. MATCH (hugo:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(hugoWeavingMovies) RETURN hugo,hugoWeavingMovies
+
+3. MATCH (hugo:Person {name:"Hugo Weaving"})-[:ACTED_IN]->(movies)<-[:DIRECTED]-(directors) RETURN directors
+
+4. MATCH (hugo:Person {name:"Hugo Weaving"})-[:ACTED_IN]->(movies)<-[:ACTED_IN]-(coActors) RETURN coActors
+
+5. MATCH (matrix:Movie {title:"The Matrix"})<-[:ACTED_IN]-(actors)-[:ACTED_IN]->(movies) RETURN movies
+
+Zapytanie właściwsze do postaci tekstowej (listy):
+6a. MATCH (actor:Person)-[:ACTED_IN]->(movies) WITH actor, count(movies.title) AS numberOfMovies RETURN actor.name, numberOfMovies
+
+Zapytanie właściwsze do postaci graficznej (grafu):
+6b. MATCH (actor:Person)-[:ACTED_IN]->(movies) WITH actor, count(movies.title) AS numberOfMovies RETURN actor, numberOfMovies
+
+Zapytanie właściwsze do postaci tekstowej (listy):
+7a. MATCH (person:Person)-[:WROTE]->(movie) WHERE (person)-[:DIRECTED]->(movie) RETURN person.name, movie.title
+
+Zapytanie właściwsze do postaci graficznej (grafu):
+7b. MATCH (person:Person)-[:WROTE]->(movie) WHERE (person)-[:DIRECTED]->(movie) RETURN person, movie
+
+8. MATCH (hugo:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movies)<-[:ACTED_IN]-(keanu:Person {name: "Keanu Reeves"}) RETURN movies
+
+9a.
+CREATE (CaptainAmericaFA:Movie {title:'Captain America: The First Avenger', released:2011, tagline:'I knocked out Adolf Hitler over 200 times'})
+CREATE (JJohnston:Person {name:'Joe Johnston', born:1950})
+CREATE (CMarkus:Person {name:'Christopher Markus', born:1970})
+CREATE (SMcFeely:Person {name:'Stephen McFeely', born:1970})
+CREATE (CEvans:Person {name:'Chris Evans', born:1981})
+CREATE (SLJackson:Person {name:'Samuel L. Jackson', born:1948})
+CREATE (HAtwell:Person {name:'Hayley Atwell', born:1982})
+CREATE (SStan:Person {name:'Sebastian Stan', born:1982})
+CREATE (TLJones:Person {name:'Tommy Lee Jones', born:1946})
+CREATE
+(CEvans)-[:ACTED_IN {roles:['Capitan America']}]->(CaptainAmericaFA),
+(SLJackson)-[:ACTED_IN {roles:['Nick Fury']}]->(CaptainAmericaFA),
+(HAtwell)-[:ACTED_IN {roles:['Peggy Carter']}]->(CaptainAmericaFA),
+(SStan)-[:ACTED_IN {roles:['Bucky']}]->(CaptainAmericaFA),
+(TLJones)-[:ACTED_IN {roles:['Chester Philips']}]->(CaptainAmericaFA),
+(JJohnston)-[:DIRECTED]->(CaptainAmericaFA),
+(CMarkus)-[:WROTE]->(CaptainAmericaFA),
+(SMcFeely)-[:WROTE]->(CaptainAmericaFA)
+
+9b.
+MATCH (actor:Person), (movie:Movie) 
+WHERE actor.name="Hugo Weaving" and movie.title = "Captain America: The First Avenger"
+CREATE (actor)-[:ACTED_IN {roles:['Johann Schmidt, Red Skull']}]->(movie)
+
+9c.
+MATCH (movie:Movie {title:"Captain America: The First Avenger"})<-[relationship:ACTED_IN|WROTE|DIRECTED]-(person:Person) return movie, relationship, person

@@ -1,0 +1,302 @@
+﻿[
+  {
+    "movie": {
+"identity": 169,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "I knocked out Adolf Hitler over 200 times",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "relationship": {
+"identity": 258,
+"start": 4,
+"end": 169,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Johann Schmidt, Red Skull"
+        ]
+      }
+    },
+    "person": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 169,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "I knocked out Adolf Hitler over 200 times",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "relationship": {
+"identity": 256,
+"start": 171,
+"end": 169,
+"type": "WROTE",
+"properties": {
+
+      }
+    },
+    "person": {
+"identity": 171,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1970,
+"name": "Christopher Markus"
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 169,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "I knocked out Adolf Hitler over 200 times",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "relationship": {
+"identity": 255,
+"start": 170,
+"end": 169,
+"type": "DIRECTED",
+"properties": {
+
+      }
+    },
+    "person": {
+"identity": 170,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1950,
+"name": "Joe Johnston"
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 169,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "I knocked out Adolf Hitler over 200 times",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "relationship": {
+"identity": 254,
+"start": 177,
+"end": 169,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Chester Philips"
+        ]
+      }
+    },
+    "person": {
+"identity": 177,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1946,
+"name": "Tommy Lee Jones"
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 169,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "I knocked out Adolf Hitler over 200 times",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "relationship": {
+"identity": 250,
+"start": 173,
+"end": 169,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Capitan America"
+        ]
+      }
+    },
+    "person": {
+"identity": 173,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1981,
+"name": "Chris Evans"
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 169,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "I knocked out Adolf Hitler over 200 times",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "relationship": {
+"identity": 253,
+"start": 176,
+"end": 169,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Bucky"
+        ]
+      }
+    },
+    "person": {
+"identity": 176,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1982,
+"name": "Sebastian Stan"
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 169,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "I knocked out Adolf Hitler over 200 times",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "relationship": {
+"identity": 251,
+"start": 174,
+"end": 169,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Nick Fury"
+        ]
+      }
+    },
+    "person": {
+"identity": 174,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1948,
+"name": "Samuel L. Jackson"
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 169,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "I knocked out Adolf Hitler over 200 times",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "relationship": {
+"identity": 252,
+"start": 175,
+"end": 169,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Peggy Carter"
+        ]
+      }
+    },
+    "person": {
+"identity": 175,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1982,
+"name": "Hayley Atwell"
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 169,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "I knocked out Adolf Hitler over 200 times",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "relationship": {
+"identity": 257,
+"start": 172,
+"end": 169,
+"type": "WROTE",
+"properties": {
+
+      }
+    },
+    "person": {
+"identity": 172,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1970,
+"name": "Stephen McFeely"
+      }
+    }
+  }
+]
